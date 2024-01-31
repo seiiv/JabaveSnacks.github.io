@@ -1,0 +1,109 @@
+<html>
+   <head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+		<meta name="viewport" content="widht, initial-scale=1" />
+  
+  <title>Jabave Snack</title>
+  <link rel="stylesheet" href="style.css"/>
+  
+  <style>
+  .google-form-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  }
+  
+  iframe {
+  widht: 100px;
+  height: 1000px;
+  }
+  
+  
+
+  </style>
+  
+	</head>
+	<body>
+		
+			<header>
+			<h1 class="logo">JABAVE SNACK</h1>
+			<nav>
+				<ul>
+				
+					<li><a href="#order">ORDER</a></li>
+					
+					  <select id="nomor-whatsapp">
+						<option value="6281324650742">Alvin</option>
+						<option value="6287748326477">Kirana</option>
+						<option value="6285880209763">Dafina</option>
+						</select>
+				 <button class="button-cta" onclick="openWhatsApp()">Hubungi via WhatsApp</button>
+					
+					
+					 <script>
+						function openWhatsApp() {
+						var select = document.getElementById("nomor-whatsapp");
+						var selectedValue = select.options[select.selectedIndex].value;
+						var whatsappURL = "https://wa.me/" + selectedValue;
+						window.location.href = whatsappURL;
+						}
+					</script>
+					
+					<li class="instagram"><a href="https://www.instagram.com/jabave_snack" target="_blank" class="instagram">FOLLOW US</a></li>
+					
+				</ul>
+			</nav>
+				
+			
+			</header>
+			
+			
+			
+			<div class="container">
+				<div class="intro">
+				<img src="icon/Jabave Menu.png" alt="jabavesnacks logo 1" class="img-foto"/>
+				</div>
+			</div>
+			
+			
+			
+			<div class="parallax">
+				<div class="tentang">
+				
+				<p class="title">Hubungi Kami Di</p>
+				<p class="description">Nomor Kami Di Atas</p>
+					
+				
+				</div>
+			<div class="menu">
+				<p class="title">masih bingung? coba tanya kami!</p>
+				<p class="description">Hayooo mau pesen apaa?</p>
+			</div>
+			
+			
+					
+					
+			
+			     <div class="google-form-container" id="order">
+					<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScyEqgdXB9XkhDL3SoKj48sfvUEfvzelJoYzWUy0jDl__2WbQ/viewform?usp=sf_link">
+				 </div>
+				 
+				 
+			
+			</div>
+			
+		
+			
+			
+			
+			<footer>
+			<p class="title">Thank You For The Order!!</p>
+			</footer>
+			
+		
+			
+		
+		</body>
+   
+   </html>

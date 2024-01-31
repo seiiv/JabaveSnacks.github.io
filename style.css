@@ -1,0 +1,159 @@
+*, html,body {
+margin: 0;
+padding: 0;
+box-sizing: border-box;	
+font-family: Helvetica;
+scroll-behavior: smooth;
+}
+
+header {
+	background: #4c403d;
+	color: #eaeaea;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+}
+
+.logo {
+	margin-right: auto;
+	margin-left: 10px;
+	cursor: pointer;
+	transition: all .5s ease 0s;
+}
+
+.logo:hover {
+	color: #FF6A3D;
+	transform: rotate(2deg);
+}
+
+
+
+
+nav ul {
+	display: flex;
+	padding: 20px;
+}
+
+
+
+li {
+	list-style-type: none;
+	padding: 20px;
+	
+}
+	
+li a {
+transition: all .5s ease 0s;
+display: inline-block;
+}	
+
+li a:hover {
+	color: #FF6A3D;
+transform: rotate(2deg);
+}
+
+a {
+	color: #eaeaea;
+	text-decoration: none;
+	
+}
+
+.container {
+	
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 70px 0;
+}
+
+.intro {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	text-align: center;
+}
+
+
+.title {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+
+.description {
+	font-size: 28px;
+	font-weight: bolder;
+}
+
+.img-foto {
+	width: 80%;
+	max-width: 400px;
+	max-height: auto;
+	padding: 10px;
+}
+
+.parallax {
+	background-image: url('icon/LOGO_PT_Project-removebg-preview.png');
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-size: 30%;
+	height: 100vh;
+	
+}
+
+.tentang {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background: #1A2238;
+	color: #eaeaea;
+	padding: 40px;
+}
+
+.mt-10 {
+	margin-top: 10px;
+}
+
+
+.google-form-container {
+	display: flex;
+	justify-content: center;
+	
+}
+
+footer {
+	padding: 20px;
+	text-align: center;
+	background: #FF6A3D
+	color: #eaeaea;
+}
+
+.kontak {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.instagram {
+	position: right;
+}
+
+
+.button-cta {
+	
+	margin-right: 10px;
+	border: none;
+	font-size: 15px;
+	padding: 6px 12px;
+	background: #FF6A3D;
+	color: #eaeaea;
+	border-radius: 8px;
+	cursor: pointer;
+
+}
+
